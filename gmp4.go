@@ -15,7 +15,7 @@ type mvhdBox struct {
 }
 
 type video interface {
-	collectData()
+	collectData() error
 	getMvhdBox() mvhdBox
 }
 
