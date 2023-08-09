@@ -3,7 +3,7 @@
 gmp4是一个能够通过视频的url\本地路径获取其时长的轻量级库，目前仅支持MP4格式的视频
 ## 安装
 ```
-go get -u github.com/Stitch-Zhang/gmp4
+go get -u github.com/ivanlebron/gmp4
 ```
 ## 使用
 ### 获取网络资源中MP4视频时长
@@ -15,7 +15,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Stitch-Zhang/gmp4"
+	"github.com/ivanlebron/gmp4"
 )
 
 func main() {
@@ -68,7 +68,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Stitch-Zhang/gmp4"
+	"github.com/ivanlebron/gmp4"
 )
 
 func main() {
@@ -90,7 +90,7 @@ func main() {
 ## gmp4
 ## Install
 ```
-go get -u github.com/Stitch-Zhang/gmp4
+go get -u github.com/ivanlebron/gmp4
 ```
 ## Usage
 ### Get a web video duration with url 
@@ -102,7 +102,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Stitch-Zhang/gmp4"
+	"github.com/ivanlebron/gmp4"
 )
 
 func main() {
@@ -155,7 +155,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Stitch-Zhang/gmp4"
+	"github.com/ivanlebron/gmp4"
 )
 
 func main() {
