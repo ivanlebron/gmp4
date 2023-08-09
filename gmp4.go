@@ -48,7 +48,9 @@ func check(raw []byte) (int, string) {
 // GetDuration get video time(second)
 // by downloading mvhd box of video and parse it
 func GetDuration(m video) uint32 {
-	m.collectData()
+	if err := m.collectData(); err != nil {
+		return 0, err
+	}
 	data := m.getMvhdBox()
 	if data.done {
 		return data.totalTimeSecond
